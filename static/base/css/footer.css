@@ -1,0 +1,29 @@
+.footer {
+
+    height: 15%;
+    width: 100%;
+    background-color: #3f3f3f;
+    background-position: center center;
+    background-size: auto auto;
+    color: red;
+}
+
+.footer_left {
+    float: left;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+.footer_left a:link {
+    color: #FFF;
+}
+
+.footer_left a:visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.footer_left a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

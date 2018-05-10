@@ -1,0 +1,6 @@
+cffi==1.11.5
+Django==1.9.4
+misaka==2.1.0
+pycparser==2.18
+Pygments==2.2.0
+PyMySQL==0.8.0

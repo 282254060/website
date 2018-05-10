@@ -1,0 +1,88 @@
+.myblogs {
+	float: left;
+    width: 70%;
+    /*padding-bottom: 2em;*/
+    background-color: #fff;
+    /*background-color: #EBF2F8;*/
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
+}
+
+.myblogs .myblogs_title {
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    background-color: #3AA6C1;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    color: #fff;
+    display:block;
+}
+
+.myblogs .myblogs_title .myblogs_logo {
+    float: left;
+    display:block;
+}
+
+.myblogs .myblogs_title .myblogs_admin {
+    margin-left: 1em;
+    float: left;
+    display: block;
+}
+
+.myblogs .myblogs_title .myblogs_new_article {
+    float: right;
+    display:block;
+}
+
+.myblogs .myblog_content {
+	background: #f2f2f2;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	/*margin-bottom: 0.125em;*/
+	font-size: 100%;
+}
+
+.myblogs .myblogs_title a:hover {
+    color: #215583;
+}
+
+.myblogs .myblogs_title a {
+    text-decoration: none;
+    transition: color 0.3s;
+    color: #fff;
+}
+
+.myblogs .myblog_content a {
+	padding: 0.5em 1.5em;
+	display: block;
+	border-left: 0.5em solid #ccc;
+	transition: border-left 0.45s;
+	text-decoration: none;
+}
+
+.myblogs .myblog_content a:hover {
+	border-left: 0.5em solid #3AA6C1;
+}
+
+.myblogs .myblog_content a h1 {
+	color: #2CA6CB;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	font-size: 1.3em;
+}
+
+.myblogs .myblog_content a p {
+	color: #817c7c;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-size: 0.8em;
+}
+
+.myblogs .myblog_content a time {
+	color: #817c7c;
+	display: block;
+	margin: 0.2em 0;
+	font-size: 0.8em;
+}
